@@ -1,0 +1,21 @@
+{
+  "name": "KnowledgeService",
+  "version": "0.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "bots-node-sdk": "bots-node-sdk",
+    "help": "npm run bots-node-sdk -- --help",
+    "prepack": "npm run bots-node-sdk -- --pack --dry-run",
+    "start": "npm run bots-node-sdk service ."
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "@oracle/bots-node-sdk": "^2.2.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {}
+}
