@@ -55,3 +55,7 @@ npm run bots-node-sdk -- pack .
 
 > **TIP:** use `npm run bots-node-sdk -- pack --help` for additional packaging
 options.
+
+## How to Contribute
+
+To learn how to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
