@@ -2,13 +2,13 @@
 
 The Knowledge Accelerator is a skill for the Oracle Digital Assistant platform that allows users to use a chat interface to search for articles in Knowledge Advanced for Oracle Service Cloud. The accelerator includes both the skill as well as the source code for the custom component package, and it can be imported into ODA and used immediately or customized to your requirements.
 
-##Getting Started
+## Getting Started
 
 If you simply want to import the accelerator skill into your ODA instance, you can download the skill as a ZIP in our releases tab. In Oracle Digital Assistant, under the Skills tab, use "Import Skill" to import the ZIP file into your skills catalogue. See our [blog post] for full instructions on importing the skill into ODA.
 
 To make changes to the custom component Javascript code, you can clone this repository. See below for build instructions.
 
-###Prerequisites
+### Prerequisites
 Install the latest version of [Node.js](https://nodejs.org/en/download/)
 
 Acquire access to [Oracle Digital Assistant](https://cloud.oracle.com/digital-assistant)
