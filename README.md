@@ -4,7 +4,7 @@ The Knowledge Accelerator is a skill for the Oracle Digital Assistant platform t
 
 ## Getting Started
 
-If you simply want to import the accelerator skill into your ODA instance, you can download the skill as a ZIP in our releases tab. In Oracle Digital Assistant, under the Skills tab, use "Import Skill" to import the ZIP file into your skills catalog. See our [blog post] for full instructions on importing the skill into ODA.
+If you simply want to import the accelerator skill into your ODA instance, you can download the skill as a ZIP in our releases tab. In Oracle Digital Assistant, under the Skills tab, use "Import Skill" to import the ZIP file into your skills catalog. See our [blog post](https://blogs.oracle.com/oracleknowledge/knowledge-skill-accelerated) for full instructions on importing the skill into ODA.
 
 To make changes to the custom component Javascript code, you can clone this repository. See below for build instructions.
 
@@ -39,7 +39,7 @@ npm install
 #from the root folder
 ```
 
-For full documentation of the custom components, see [blog post - Technical Details].
+For full documentation of the custom components, see the [technical details](https://app.compendium.com/api/post_attachments/f9f1f453-984c-4cea-91c4-715f3c285e57/view) from the blog post.
 
 ## Deployment
 
