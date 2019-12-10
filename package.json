@@ -11,6 +11,12 @@
   },
   "keywords": [],
   "author": "",
+  "bundledDependencies": [
+    "@oracle/bots-node-sdk",
+    "request",
+    "request-promise-native",
+    "xml-js"
+  ],
   "dependencies": {
     "@oracle/bots-node-sdk": "^2.2.0",
     "request": "^2.88.0",
