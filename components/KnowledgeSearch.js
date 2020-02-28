@@ -100,7 +100,7 @@ module.exports = {
         let excerpt = (resultItem.textElements || []).map(textElement => textElement.snippets.map(snippet => snippet.text).join('')).join('')
         let answerId, link, contentType
         if (resultItem.globalAnswerId) {
-          contentType = resultItem.title.url.match(/IM:[A-Z]+:/i)[0].split(":")[1].toLowerCase()
+          contentType = resultItem.title.url.match(/IM:\w+:/i)[0].split(":")[1].toLowerCase()
           answerId = `${resultItem.globalAnswerId}`
           link = `${customerPortal}/app/answers/answer_view/a_id/${encodeURIComponent(resultItem.globalAnswerId)}`
         } else {
